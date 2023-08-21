@@ -1,0 +1,32 @@
+.header
+{
+    width:100%;
+    height:50px;
+   
+}
+
+#dash
+{
+    width:200px;
+    height:30px;
+    background-color: #f9860c;
+    color:white;
+    float: left;
+    margin-top:10px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius:5px;
+}
+#own
+{
+    width:200px;
+    height:30px;
+
+    float: left;
+    margin-left: 650px;
+    margin-top:10px;
+    text-align: center;
+    background-color: #f9860c;
+   color:white;
+   border-radius:5px;
+}

@@ -1,0 +1,62 @@
+.Box
+{
+    width:500px;
+    height:350px;
+    margin-top: 170px;
+    margin-left: 350px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
+}
+#h1
+{
+    width:500px;
+    height:40px;
+    border:1px solid #3b5998;
+    text-align: center;
+    background-color: #3b5998;
+    color:white
+   
+}
+.row2
+{
+    margin-left: 15px;
+
+}
+#BuildingName
+{
+    width:300px;
+    height:25px;
+    border:1px solid gray;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+#Floors
+{
+    width:300px;
+    height:25px;
+    border:1px solid gray;
+    margin-left:53px;
+    border-radius: 3px;
+}
+#Owner
+{
+    width:300px;
+    height:25px;
+    border:1px solid gray;
+    margin-left:93px;
+    border-radius: 3px;
+}
+#Location
+{
+    width:300px;
+    height:25px;
+    border:1px solid gray;
+    margin-left:79px;
+    border-radius: 3px;
+}
+#Submit
+{
+    width:400px;
+    border:1px solid gray;
+    height:35px;
+    border-radius: 3px;
+}

@@ -1,0 +1,8 @@
+.buildingname
+{
+    width:400px;
+    height:300px;
+    margin-top: 170px;
+    margin-left: 350px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
+}
