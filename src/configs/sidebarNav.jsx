@@ -18,16 +18,22 @@ const sidebarNav = [
         text: 'Staff'
     },
     {
-        link: '/stats',
-        section: 'stats',
-        icon: <i className='bx bx-line-chart'></i>,
-        text: 'Stats'
+        link: '/customers',
+        section: 'customers',
+        icon: <i className='bx bx-cube'></i>,
+        text: 'Daily-Needs'
     },
     {
         link: '/settings',
         section: 'settings',
         icon: <i className='bx bxs-music'></i>,
         text: 'Music'
+    },
+    {
+        link: '/stats',
+        section: 'stats',
+        icon: <i className='bx bx-line-chart'></i>,
+        text: 'Stats'
     }
 ]
 

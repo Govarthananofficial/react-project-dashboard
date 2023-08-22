@@ -2,7 +2,7 @@ import images from "./images"
 
 const data = {
     user: {
-        name: 'HOTEL KAVI',
+        name: 'GK Kitchen',
         img: images.avt
     },
     summary: [

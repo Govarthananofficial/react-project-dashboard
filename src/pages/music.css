@@ -13,14 +13,14 @@ body{
     box-sizing: border-box;
 }
 
-.container{
-    height: 100%;
+.container {
+    height: 100%; /* Set the container to take up 100% of viewport height */
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: var(--mainColor);
-    font-family: 'Poppins';   
+    font-family: 'Poppins';
 }
 
 .backgroundVideo{
@@ -133,7 +133,8 @@ body{
     background-color: #eee;
     position: absolute;
     border-radius: 12px 12px 0 0;
-    bottom: 0;
+    bottom: 0px;
+    right: 40%;
     left: 60%;
     transform: translateX(-50%);
     z-index: 10;
@@ -156,28 +157,4 @@ body{
 
 .objectFitContain{
     object-fit: contain;
-}
-
-/* Subs */
-
-.youtube-Subs{
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    text-decoration: none;
-    color: #fff;
-    display: flex;
-    align-items: center;
-}
-
-.youtube-Subs img{
-    height: 24px;
-}
-
-.youtube-Subs p{
-    font-family: 'Poppins';
-    margin: 0;
-    padding: 0;
-    margin-left: 10px;
-    font-size: 18px;
 }

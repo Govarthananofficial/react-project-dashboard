@@ -6,13 +6,11 @@
   
   .App {
     text-align: center;
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
-    padding-top: 55px;
   }
   
   .app-title-container{
-    padding: 25px;
     margin-bottom: 15px;
   }
   .lightMode-app-title-container{

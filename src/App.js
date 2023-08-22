@@ -2,7 +2,6 @@ import './assets/libs/boxicons-2.1.1/css/boxicons.min.css'
 
 import './scss/App.scss'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Blank from './pages/Blank'
 import Dashboard from './pages/Dashboard'
 import MainLayout from './layout/MainLayout'
 import Order from './pages/order'
@@ -13,6 +12,7 @@ import Newstaff from './components/newstaff'
 import Oldstaff from './components/oldstaff'
 import RevenueByMonthsChart from './pages/Revenue'
 import Music from './pages/music'
+import Todo from './pages/todo'
 function App() {
     return (
         <BrowserRouter>
@@ -31,7 +31,7 @@ function App() {
                     </Route>
 
                     
-                    <Route path="customers" element={<Blank />} />
+                    <Route path="customers" element={<Todo />} />
                     <Route path="settings" element={<Music />} />
                     <Route path="stats" element={<RevenueByMonthsChart />} />
                 </Route>
