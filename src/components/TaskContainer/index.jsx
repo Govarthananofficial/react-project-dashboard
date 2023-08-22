@@ -31,7 +31,7 @@ const TaskContainer = ({ tasks, setTasks, dark }) => {
     };
 
     return (
-        <div className='tasks-container' id='printable-task-list' >
+        <div className='tasks-container'  >
             <form className='input-form' action='handleSubmit' onSubmit={handleSubmit}>
                 <input className='task-input task-input-title'
                     name='title' type="text" placeholder='Enter Title'
@@ -43,7 +43,7 @@ const TaskContainer = ({ tasks, setTasks, dark }) => {
                     type='submit'>Add</button>
             </form >
             
-            <div className={`${dark ? 'darkMode-box-tasks-container' : "lightMode-box-tasks-container"} box-tasks-container`}>
+            <div id='printable-task-list' className={`${dark ? 'darkMode-box-tasks-container' : "lightMode-box-tasks-container"} box-tasks-container`}>
                 {tasks?.map((task, i) => {
                     return <Task task={task} tasks={tasks} setTasks={setTasks} index={i} dark={dark} key={i} />
                 })}

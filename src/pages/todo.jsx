@@ -19,7 +19,7 @@ function Todo() {
   return (
     <div className={`${dark ? 'darkMode-App' : "lightMode-App"} App`}>
       <div className={`${dark ? 'darkMode-app-title-container' : "lightMode-app-title-container"} app-title-container`}>
-        <h1 className='app-title'>ToDo App</h1>
+        <h1 className='app-title'>Daily Needs</h1>
       </div>
       <Switch
         checked={dark}
