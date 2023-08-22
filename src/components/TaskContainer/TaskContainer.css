@@ -1,0 +1,76 @@
+.add-btn {
+    padding: 12px 25px;
+    box-shadow: none;
+    font-size: 16px;
+    border: none;
+    margin: 0 4px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.lightMode-add-btn {
+    background-color: #3f1f5f;
+    color: #fff;
+}
+
+.darkMode-add-btn {
+    color: #fff;
+    background-color: #64309c;
+}
+
+.add-btn:hover {
+    background-color: #713aac;
+}
+
+.input-form {
+    width: 850px;
+    max-width: 85vw;
+    margin: 30px auto;
+    outline: none;
+    display: flex;
+}
+
+.task-input {
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 70%;
+    margin: 0 2px;
+    border: 0.5px solid rgb(179, 177, 177);
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+/*.task-done-btn {
+    background: #a9fdb0;
+}
+
+.task-done-btn:hover {
+    background: #01bd7e;
+}
+
+.task-remove-btn {
+    background: #fda9a9;
+}
+
+.task-remove-btn:hover {
+    background: #ff8181;
+}*/
+
+/* / Making responsive /  */
+@media only screen and (max-width: 600px) {
+    .input-form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .task-input {
+        margin-bottom: 10px;
+    }
+
+    .task-input {
+        width: 90%;
+    }
+}
