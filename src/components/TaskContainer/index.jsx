@@ -41,9 +41,6 @@ const TaskContainer = ({ tasks, setTasks, dark }) => {
                     onChange={handleChange} value={todo.description} />
                 <button className={`task-btn ${dark ? 'darkMode-add-btn' : 'lightMode-add-btn'} add-btn`}
                     type='submit'>Add</button>
-                <button className={`task-btn ${dark ? 'darkMode-print-btn' : 'lightMode-print-btn'} print-btn`} type="button" onClick={handlePrint}>
-                    Print
-                </button>
             </form >
             
             <div className={`${dark ? 'darkMode-box-tasks-container' : "lightMode-box-tasks-container"} box-tasks-container`}>
@@ -51,6 +48,9 @@ const TaskContainer = ({ tasks, setTasks, dark }) => {
                     return <Task task={task} tasks={tasks} setTasks={setTasks} index={i} dark={dark} key={i} />
                 })}
             </div>
+            <button className={`task-btn ${dark ? 'darkMode-print-btn' : 'lightMode-print-btn'} print-btn`} type="button" onClick={handlePrint}>
+                    Print
+            </button>
         </div>
     )
 }
