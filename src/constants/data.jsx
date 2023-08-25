@@ -59,20 +59,12 @@ const data = {
     ],
     revenueByChannel: [
         {
-            title: 'Direct',
-            value: 70
-        },
-        {
-            title: 'Delivery Orders',
-            value: 40
-        },
-        {
             title: 'Swiggy Orders',
             value: 60
         },
         {
-            title: 'Zomato',
-            value: 30
+            title: 'Zomato Orders',
+            value: 40
         }
     ],
     revenueByMonths: {
