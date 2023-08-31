@@ -2,38 +2,38 @@ import images from "./images"
 
 const data = {
     user: {
-        name: 'GK Kitchen',
+        name: 'Tuatta',
         img: images.avt
     },
     summary: [
         {
             title: 'Sales',
             subtitle: 'Total sales today',
-            value: 'Rs:22,258',
+            value: '$1.000',
             percent: 70
         },
         {
             title: 'Orders',
             subtitle: 'Total orders today',
-            value: '258',
+            value: '3000',
             percent: 49
         },
         {
             title: 'Revenue',
             subtitle: 'Total revenue today',
-            value: 'Rs:41,434',
+            value: '$678',
             percent: 38
         },
         {
-            title: 'Swiggy',
-            subtitle: 'Total Swiggy orders today',
-            value: '234',
+            title: 'Visits',
+            subtitle: 'Total visits today',
+            value: '2345',
             percent: 55
         }
     ],
     revenueSummary: {
         title: 'Revenue',
-        value: 'Rs:41,434',
+        value: '$678',
         chartData: {
             labels: ['May', 'Jun', 'July', 'Aug', 'May', 'Jun', 'July', 'Aug'],
             data: [300, 300, 280, 380, 200, 300, 280, 350]
@@ -41,7 +41,7 @@ const data = {
     },
     overall: [
         {
-            value: '258',
+            value: '300K',
             title: 'Orders'
         },
         {
@@ -53,18 +53,26 @@ const data = {
             title: 'Products'
         },
         {
-            value: 'Rs:41,434',
+            value: '$5678',
             title: 'Revenue'
         }
     ],
     revenueByChannel: [
         {
-            title: 'Swiggy Orders',
+            title: 'Direct',
+            value: 70
+        },
+        {
+            title: 'External search',
+            value: 40
+        },
+        {
+            title: 'Referal',
             value: 60
         },
         {
-            title: 'Zomato Orders',
-            value: 40
+            title: 'Social',
+            value: 30
         }
     ],
     revenueByMonths: {

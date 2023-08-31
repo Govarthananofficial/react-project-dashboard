@@ -16,7 +16,6 @@ import {
 } from 'chart.js'
 import OverallList from '../components/overall-list/OverallList'
 import RevenueList from '../components/revenue-list/RevenueList'
-import CardProfile from './profilecard'
 
 ChartJS.register(
     CategoryScale,
@@ -57,11 +56,11 @@ const Dashboard = () => {
                 </div>
             </DashboardWrapperMain>
             <DashboardWrapperRight>
-                <div className="title mb">Profile</div>
+                <div className="title mb">Overall</div>
                 <div className="mb">
-                    <CardProfile />
+                    <OverallList />
                 </div>
-                <div className="title mb">Revenue by Delivery Partners</div>
+                <div className="title mb">Revenue by channel</div>
                 <div className="mb">
                     <RevenueList />
                 </div>

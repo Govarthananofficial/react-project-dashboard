@@ -12,7 +12,7 @@ const RevenueList = () => {
                         <div className="revenue-list__item__title">
                             {item.title}
                             <span className={
-                                `${item.value < 50 ? 'txt-danger' : 'txt-success'}`
+                                `${item.value < 50 ? 'txt-success' : 'txt-danger'}`
                             }>
                                 {item.value}%
                             </span>
