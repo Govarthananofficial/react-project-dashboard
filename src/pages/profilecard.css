@@ -127,7 +127,6 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     width: 20px;
-    box-shadow: 20px 0px 40px 0px  #3f1f5f;
   }
   .edit{
     color: #fff;
@@ -137,7 +136,6 @@
     left: 0;
     color: #fff;
     width: 180px;
-    box-shadow: 0px 0px 20px 0px  #3f1f5f;
   }
   button:focus{
     outline: none;
