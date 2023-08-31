@@ -9,31 +9,31 @@ const data = {
         {
             title: 'Sales',
             subtitle: 'Total sales today',
-            value: '$1.000',
+            value: '345',
             percent: 70
         },
         {
             title: 'Orders',
             subtitle: 'Total orders today',
-            value: '3000',
+            value: '345',
             percent: 49
         },
         {
             title: 'Revenue',
             subtitle: 'Total revenue today',
-            value: '$678',
+            value: 'Rs:22678',
             percent: 38
         },
         {
             title: 'Visits',
             subtitle: 'Total visits today',
-            value: '2345',
+            value: '345',
             percent: 55
         }
     ],
     revenueSummary: {
         title: 'Revenue',
-        value: '$678',
+        value: 'Rs:22678',
         chartData: {
             labels: ['May', 'Jun', 'July', 'Aug', 'May', 'Jun', 'July', 'Aug'],
             data: [300, 300, 280, 380, 200, 300, 280, 350]
@@ -53,7 +53,7 @@ const data = {
             title: 'Products'
         },
         {
-            value: '$5678',
+            value: 'Rs:22678',
             title: 'Revenue'
         }
     ],
